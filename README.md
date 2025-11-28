@@ -42,15 +42,12 @@ Building intelligent systems with Python, Rust, and whatever gets the job done.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
 ---
 
 ## Featured
 
-<a href="https://github.com/NicholasBurgo/portfolio_Template">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NicholasBurgo&repo=portfolio_Template&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" />
-</a>
+
 
 </div>
