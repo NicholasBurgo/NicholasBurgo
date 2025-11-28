@@ -8,7 +8,6 @@
 Building intelligent systems with Python, Rust, and whatever gets the job done.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nicholas-burgo/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-171515?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nicholasburgo.github.io/portfolio/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:burgonicholasv@gmail.com)
 
 ---
