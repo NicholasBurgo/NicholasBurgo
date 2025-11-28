@@ -21,7 +21,7 @@ Building intelligent systems with Python, Rust, and whatever gets the job done.
 | **ML & Data** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" /> |
 | **Backend** | <img src="https://skillicons.dev/icons?i=fastapi,dotnet,postgres&theme=dark" /> |
 | **DevOps** | <img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions&theme=dark" /> |
-| **Tools** | <img src="https://skillicons.dev/icons?i=vscode,vim,unity,blender&theme=dark" /> |
+| **Tools** | <img src="https://skillicons.dev/icons?i=vim,unity,blender&theme=dark" /> |
 
 <br>
 
