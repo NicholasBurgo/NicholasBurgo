@@ -1,6 +1,7 @@
 <div align="center">
 
-# Nicholas Burgo
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=180&section=header&text=Nicholas%20Burgo&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+
 
 **ML Engineer & Software Developer**
 
