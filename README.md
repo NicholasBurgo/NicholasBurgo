@@ -44,6 +44,10 @@ Extracts content from HTML, PDF, DOCX, and images using multiprocessing. Provide
 
 <br>
 
+──────────
+
+<br>
+
 [![Portfolio Template](https://img.shields.io/badge/Portfolio_Template-161b22?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/NicholasBurgo/portfolio_Template)
 
 Open-source single-page portfolio template for students and developers.
