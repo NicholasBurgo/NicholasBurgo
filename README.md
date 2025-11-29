@@ -48,6 +48,22 @@ Extracts content from HTML, PDF, DOCX, and images using multiprocessing. Provide
 
 <br>
 
+[![Stock Price Forecasting](https://img.shields.io/badge/Stock_Price_Forecasting-161b22?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/NicholasBurgo/StockPriceForecasting)
+
+Machine learning project for forecasting stock prices from historical time-series data using regression and deep learning models.
+<br>
+Implements feature engineering, train/validation splits, model comparison, and backtesting-style evaluation for realistic performance.
+
+<img src="https://skillicons.dev/icons?i=python,sklearn,py&theme=dark" height="32" />
+
+`NumPy` `pandas` `scikit-learn` `Matplotlib` `Seaborn`
+
+<br>
+
+──────────
+
+<br>
+
 [![Portfolio Template](https://img.shields.io/badge/Portfolio_Template-161b22?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/NicholasBurgo/portfolio_Template)
 
 Open-source single-page portfolio template for students and developers.
