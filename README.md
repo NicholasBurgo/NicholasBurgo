@@ -32,42 +32,27 @@ Building intelligent systems with Python, Rust, and whatever gets the job done.
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="100%">
+[![SiteInsite](https://img.shields.io/badge/SiteInsite-161b22?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/NicholasBurgo/SiteInsite)
 
-### [SiteInsite](https://github.com/NicholasBurgo/SiteInsite)
-
-Full-stack website intelligence platform that performs async concurrent crawling with rate limiting and robots.txt compliance. Extracts content from HTML, PDF, DOCX, and images using multiprocessing for parallelization. Provides comprehensive SEO analysis including keyword discovery, coverage scoring, and on-page optimization metrics. Features real-time crawl progress via WebSocket polling, performance benchmarking with statistical analysis (TTFB, P90, P95 percentiles), and side-by-side competitor comparison with actionable insights.
-
+Full-stack website intelligence platform with async concurrent crawling, rate limiting, and robots.txt compliance.
 <br>
+Extracts content from HTML, PDF, DOCX, and images using multiprocessing. Provides SEO analysis with keyword discovery, coverage scoring, and on-page optimization. Features real-time progress tracking, performance benchmarking (TTFB, P90, P95), and competitor comparison.
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,docker,tailwind&theme=dark" height="32" />
 
-<br>
-
 `aiohttp` `Playwright` `BeautifulSoup` `SimHash` `trafilatura` `Vite`
 
-</td>
-</tr>
-<tr>
-<td width="100%">
-
-### [Portfolio Template](https://github.com/NicholasBurgo/portfolio_Template)
-
-Open-source single-page portfolio template designed for students and developers. Features a dark theme with interactive hover animations, configurable project showcase, about section, and contact information. Built with a simple JavaScript config object for easy customization without touching the markup. Deployable to GitHub Pages with zero configuration.
-
 <br>
+
+[![Portfolio Template](https://img.shields.io/badge/Portfolio_Template-161b22?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/NicholasBurgo/portfolio_Template)
+
+Open-source single-page portfolio template for students and developers.
+<br>
+Dark theme with interactive hover animations, configurable project showcase, and contact section. Simple JavaScript config for easy customization. Zero-config GitHub Pages deployment.
 
 <img src="https://skillicons.dev/icons?i=html,tailwind,js&theme=dark" height="32" />
 
-<br>
-
 `Font Awesome` `CSS Animations` `GitHub Pages`
-
-</td>
-</tr>
-</table>
 
 ---
 
