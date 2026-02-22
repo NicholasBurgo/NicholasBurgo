@@ -8,11 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="LINKEDIN_URL">LinkedIn</a> |
-  <a href="PORTFOLIO_URL">Portfolio</a> |
-  <a href="mailto:YOUR_EMAIL">Email</a>
+  <a href="[LINKEDIN_URL](https://www.linkedin.com/in/nicholas-burgo/)">LinkedIn</a> |
+  <a href="mailto:burgoNicholasV@gmail.com">Email</a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NicholasBurgo&show_icons=true&hide_title=true" alt="GitHub stats" />
 </p>
