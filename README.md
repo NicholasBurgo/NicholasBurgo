@@ -1,5 +1,5 @@
 <div align="center">
 
-### ** Nicholas Burgo
+# Nicholas Burgo
 
 </div>
