@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="[LINKEDIN_URL](https://www.linkedin.com/in/nicholas-burgo/)">LinkedIn</a> |
+  <a href="https://www.linkedin.com/in/nicholas-burgo/">LinkedIn</a> |
   <a href="mailto:burgoNicholasV@gmail.com">Email</a>
 </p>
 
