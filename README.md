@@ -1,17 +1,18 @@
 <h1 align="center">Nicholas Burgo</h1>
-<p align="center"><strong>Computer Science • Backend • AI tooling • Unity</strong></p>
 
 <p align="center">
-  <a href="LINKEDIN_URL">LinkedIn</a> •
-  <a href="PORTFOLIO_URL">Portfolio</a> •
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Inter&size=20&duration=3000&pause=800&center=true&vCenter=true&width=520&lines=Computer+Science+at+SELU;Backend+%E2%80%A2+AI+Tooling+%E2%80%A2+Unity;Building+offline-first+and+automation+tools"
+    alt="Typing animation"
+  />
+</p>
+
+<p align="center">
+  <a href="LINKEDIN_URL">LinkedIn</a> |
+  <a href="PORTFOLIO_URL">Portfolio</a> |
   <a href="mailto:YOUR_EMAIL">Email</a>
 </p>
 
-## Projects
-* **SiteInsite**: Website extraction and audit pipeline.
-* **Field Service Technician App**: Offline first mobile app for technicians with voice to report workflows.
-* **Nova**: Raspberry Pi assistant with wake word and voice authentication.
-* **Unity Traffic AI**: Node based routing with intersection logic and traffic phases.
-
-## Stack
-Python, FastAPI, PostgreSQL, TypeScript, React, Unity, GitHub Actions, Docker
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_title=true" alt="GitHub stats" />
+</p>
