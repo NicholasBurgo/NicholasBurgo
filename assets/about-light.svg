@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F1ED"/>
+      <stop offset="100%" stop-color="#EDEAE6"/>
+    </linearGradient>
+    <radialGradient id="n1" cx="20%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="n2" cx="80%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#4A7BF7" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#4A7BF7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="180" fill="url(#bg)"/>
+  <rect width="1200" height="180" fill="url(#n1)">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="180" fill="url(#n2)">
+    <animate attributeName="opacity" values="1;0.85;1" dur="11s" begin="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="45" cy="25" r="0.8" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.25;0.05" dur="5s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="312" cy="155" r="0.6" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.3;0.05" dur="4s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="20" r="0.9" fill="#5C6380"><animate attributeName="opacity" values="0.04;0.2;0.04" dur="6s" begin="1.3s" repeatCount="indefinite"/></circle>
+  <circle cx="1050" cy="140" r="0.7" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.22;0.05" dur="7s" begin="4.1s" repeatCount="indefinite"/></circle>
+  <circle cx="1150" cy="35" r="0.5" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.25;0.05" dur="5s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="560" cy="165" r="0.6" fill="#5C6380"><animate attributeName="opacity" values="0.04;0.28;0.04" dur="4s" begin="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="920" cy="85" r="0.8" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.22;0.05" dur="6s" begin="5.2s" repeatCount="indefinite"/></circle>
+
+  <text x="80" y="45" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1A1D2B" letter-spacing="1">About</text>
+
+  <text x="80" y="85" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#4A4E5C">Computer Science student at Southeastern Louisiana University, focused on</text>
+  <text x="80" y="105" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#4A4E5C">backend systems, AI tooling, and interactive development in Unity.</text>
+
+  <text x="80" y="140" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#4A4E5C">I build tools that work without a connection and automate the things that</text>
+  <text x="80" y="160" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#4A4E5C">shouldn't need a human in the loop.</text>
+</svg>

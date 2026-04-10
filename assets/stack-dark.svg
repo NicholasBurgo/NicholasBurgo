@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0D17"/>
+      <stop offset="100%" stop-color="#111425"/>
+    </linearGradient>
+    <radialGradient id="n1" cx="75%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="n2" cx="15%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#4A7BF7" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#4A7BF7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#n1)">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="10s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="200" fill="url(#n2)">
+    <animate attributeName="opacity" values="1;0.85;1" dur="8s" begin="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="100" cy="170" r="0.7" fill="#E0E6F1"><animate attributeName="opacity" values="0.15;0.75;0.15" dur="5s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="450" cy="18" r="0.8" fill="#E0E6F1"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <circle cx="850" cy="180" r="0.6" fill="#E0E6F1"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="6s" begin="3.9s" repeatCount="indefinite"/></circle>
+  <circle cx="1100" cy="45" r="0.9" fill="#E0E6F1"><animate attributeName="opacity" values="0.2;0.65;0.2" dur="7s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle cx="680" cy="90" r="0.5" fill="#E0E6F1"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="4s" begin="5.1s" repeatCount="indefinite"/></circle>
+
+  <!-- Header -->
+  <text x="80" y="45" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#E0E6F1" letter-spacing="1">Stack</text>
+
+  <!-- Entries -->
+  <text x="80" y="85" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#E0E6F1" font-weight="600">Languages</text>
+  <text x="200" y="85" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#9BA3B8">Python, C#, JavaScript, SQL</text>
+
+  <text x="80" y="115" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#E0E6F1" font-weight="600">Frameworks</text>
+  <text x="215" y="115" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#9BA3B8">FastAPI, React, Unity</text>
+
+  <text x="80" y="145" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#E0E6F1" font-weight="600">Infrastructure</text>
+  <text x="230" y="145" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#9BA3B8">SQLite, Docker, Git, Linux</text>
+
+  <text x="80" y="175" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#E0E6F1" font-weight="600">Current focus</text>
+  <text x="228" y="175" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#9BA3B8">offline-first architecture, AI tooling, automation pipelines</text>
+</svg>

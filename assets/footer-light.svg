@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDEAE6"/>
+      <stop offset="100%" stop-color="#F5F3F0"/>
+    </linearGradient>
+    <radialGradient id="n1" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="60" fill="url(#bg)"/>
+  <rect width="1200" height="60" fill="url(#n1)"/>
+
+  <circle cx="120" cy="15" r="0.6" fill="#5C6380"><animate attributeName="opacity" values="0.04;0.2;0.04" dur="5s" begin="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="580" cy="48" r="0.5" fill="#5C6380"><animate attributeName="opacity" values="0.05;0.18;0.05" dur="4s" begin="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1050" cy="22" r="0.7" fill="#5C6380"><animate attributeName="opacity" values="0.04;0.2;0.04" dur="6s" begin="0.8s" repeatCount="indefinite"/></circle>
+
+  <text x="600" y="38" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" fill="#5C6380">southeastern Louisiana</text>
+</svg>
