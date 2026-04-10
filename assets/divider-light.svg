@@ -7,6 +7,28 @@
       <stop offset="70%" stop-color="#6A28A6" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#6A28A6" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="g-shift" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A65D4" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3A65D4" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#6A28A6" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#3A65D4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3A65D4" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="1.5" y="3.25" fill="url(#g)" rx="0.75"/>
+
+  <style>
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes shimmer-alt {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .line-a { animation: shimmer 6s ease-in-out infinite; }
+    .line-b { animation: shimmer-alt 6s ease-in-out infinite; }
+  </style>
+
+  <rect class="line-a" width="1200" height="1.5" y="3.25" fill="url(#g)" rx="0.75"/>
+  <rect class="line-b" width="1200" height="1.5" y="3.25" fill="url(#g-shift)" rx="0.75"/>
 </svg>

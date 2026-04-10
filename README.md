@@ -20,7 +20,7 @@
 
 <br>
 
-### Signal Origin
+### About
 
 Computer Science student at Southeastern Louisiana University, focused on backend systems, AI tooling, and interactive development in Unity.
 
@@ -38,7 +38,7 @@ I build tools that work without a connection and automate the things that should
 
 <br>
 
-### Active Transmissions
+### Projects
 
 **[SiteInsite](https://github.com/NicholasBurgo/SiteInsite)** — Full-stack intelligence platform that crawls websites and generates SEO, performance, and competitor insight reports.
 `Python` `FastAPI` `React` `aiohttp` `Playwright`
@@ -60,7 +60,7 @@ I build tools that work without a connection and automate the things that should
 
 <br>
 
-### Core Systems
+### Stack
 
 **Languages** — Python, C#, JavaScript, SQL
 
@@ -81,5 +81,5 @@ I build tools that work without a connection and automate the things that should
 </div>
 
 <p align="center">
-  <sub>Transmitting from southeastern Louisiana.</sub>
+  <sub>southeastern Louisiana</sub>
 </p>
