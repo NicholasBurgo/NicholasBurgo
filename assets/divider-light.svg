@@ -16,19 +16,10 @@
     </linearGradient>
   </defs>
 
-  <style>
-    @keyframes shimmer {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-    @keyframes shimmer-alt {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
-    }
-    .line-a { animation: shimmer 6s ease-in-out infinite; }
-    .line-b { animation: shimmer-alt 6s ease-in-out infinite; }
-  </style>
-
-  <rect class="line-a" width="1200" height="1.5" y="3.25" fill="url(#g)" rx="0.75"/>
-  <rect class="line-b" width="1200" height="1.5" y="3.25" fill="url(#g-shift)" rx="0.75"/>
+  <rect width="1200" height="1.5" y="3.25" fill="url(#g)" rx="0.75">
+    <animate attributeName="opacity" values="1;0.3;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="1.5" y="3.25" fill="url(#g-shift)" rx="0.75">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/>
+  </rect>
 </svg>
