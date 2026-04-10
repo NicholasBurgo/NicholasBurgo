@@ -5,17 +5,21 @@
       <stop offset="100%" stop-color="#0B0D17"/>
     </linearGradient>
     <radialGradient id="n1" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.06"/>
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
     </radialGradient>
   </defs>
+  <style>
+    @keyframes twinkle { 0%, 100% { opacity: 0; } 50% { opacity: 0.8; } }
+    .s1 { animation: twinkle 4s ease-in-out infinite; }
+  </style>
 
   <rect width="1200" height="60" fill="url(#bg)"/>
   <rect width="1200" height="60" fill="url(#n1)"/>
 
-  <circle cx="120" cy="15" r="0.6" fill="#E0E6F1"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="5s" begin="1.5s" repeatCount="indefinite"/></circle>
-  <circle cx="580" cy="48" r="0.5" fill="#E0E6F1"><animate attributeName="opacity" values="0.15;0.5;0.15" dur="4s" begin="3.2s" repeatCount="indefinite"/></circle>
-  <circle cx="1050" cy="22" r="0.7" fill="#E0E6F1"><animate attributeName="opacity" values="0.1;0.55;0.1" dur="6s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="120" cy="15" r="0.9" fill="#E0E6F1" class="s1" style="animation-delay:-1.5s"/>
+  <circle cx="580" cy="48" r="0.7" fill="#E0E6F1" class="s1" style="animation-delay:-3.2s"/>
+  <circle cx="1050" cy="22" r="1.0" fill="#E0E6F1" class="s1" style="animation-delay:-0.8s"/>
 
-  <text x="600" y="38" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" fill="#5C6380">southeastern Louisiana</text>
+  <text x="600" y="38" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#5C6380">southeastern Louisiana</text>
 </svg>
