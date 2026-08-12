@@ -45,5 +45,5 @@
   </g>
 
   <text x="430" y="30" text-anchor="middle" class="dim">// about</text>
-  <text x="430" y="58" text-anchor="middle" class="about">data scientist &amp; ai developer building things end to end:</text><text x="430" y="80" text-anchor="middle" class="about">web-scale data pipelines, models in production, and the tooling in between.</text><text x="430" y="102" text-anchor="middle" class="about">python for the science, rust for the speed.</text><text x="430" y="124" text-anchor="middle" class="about">most of my work ships from private repos. the graph above is the tip of the iceberg.</text>
+  <text x="430" y="58" text-anchor="middle" class="about">data science &amp; ai developer building things end to end:</text><text x="430" y="80" text-anchor="middle" class="about">web-scale data pipelines, models in production, and the tooling in between.</text><text x="430" y="102" text-anchor="middle" class="about">python for the science, rust for the speed.</text><text x="430" y="124" text-anchor="middle" class="about">most of my work ships from private repos. the graph above is the tip of the iceberg.</text>
 </svg>
