@@ -1,0 +1,103 @@
+<svg width="860" height="340" viewBox="0 0 860 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research focus areas orbiting an AI core">
+  <style>
+    .tw { animation: twinkle 3.2s ease-in-out infinite; }
+    .tw2 { animation: twinkle 4.1s ease-in-out infinite; animation-delay: 1.3s; }
+    .tw3 { animation: twinkle 2.6s ease-in-out infinite; animation-delay: 0.7s; }
+    @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    .drift { animation: drift 28.0s linear infinite; }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(340px); } }
+
+    .sun { animation: sunpulse 5s ease-in-out infinite; }
+    @keyframes sunpulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.55; } }
+    .focus { font: 500 10px ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #7d8590; }
+    .core { font: 700 8px ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #2b230e; }
+    .o0 { animation: spin0 22s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin0 { from { transform: rotate(20deg); } to { transform: rotate(380deg); } }
+    .c0 { animation: cspin0 22s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin0 { from { transform: rotate(-20deg); } to { transform: rotate(-380deg); } }
+    .o1 { animation: spin1 22s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin1 { from { transform: rotate(200deg); } to { transform: rotate(560deg); } }
+    .c1 { animation: cspin1 22s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin1 { from { transform: rotate(-200deg); } to { transform: rotate(-560deg); } }
+    .o2 { animation: spin2 38s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin2 { from { transform: rotate(330deg); } to { transform: rotate(690deg); } }
+    .c2 { animation: cspin2 38s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin2 { from { transform: rotate(-330deg); } to { transform: rotate(-690deg); } }
+    .o3 { animation: spin3 38s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin3 { from { transform: rotate(120deg); } to { transform: rotate(480deg); } }
+    .c3 { animation: cspin3 38s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin3 { from { transform: rotate(-120deg); } to { transform: rotate(-480deg); } }
+    .o4 { animation: spin4 58s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin4 { from { transform: rotate(70deg); } to { transform: rotate(430deg); } }
+    .c4 { animation: cspin4 58s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin4 { from { transform: rotate(-70deg); } to { transform: rotate(-430deg); } }
+    .o5 { animation: spin5 58s linear infinite; transform-origin: 430px 170px; }
+    @keyframes spin5 { from { transform: rotate(250deg); } to { transform: rotate(610deg); } }
+    .c5 { animation: cspin5 58s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes cspin5 { from { transform: rotate(-250deg); } to { transform: rotate(-610deg); } }
+  </style>
+
+  <rect width="860" height="340" fill="#0d1117"/>
+  <g class="drift">
+    <g id="ostars">
+      <circle cx="236" cy="166" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="293" cy="26" r="0.7" fill="#ffffff" opacity="0.35"/>
+      <circle cx="246" cy="42" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="637" cy="14" r="1.3" fill="#ffffff" opacity="0.72" class="tw3"/>
+      <circle cx="119" cy="269" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="184" cy="287" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="68" cy="139" r="1.3" fill="#ffffff" opacity="0.72" class="tw2"/>
+      <circle cx="790" cy="60" r="0.9" fill="#ffffff" opacity="0.47"/>
+      <circle cx="664" cy="325" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="81" cy="254" r="1.0" fill="#ffffff" opacity="0.53" class="tw"/>
+      <circle cx="334" cy="296" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="567" cy="294" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="694" cy="218" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="55" cy="308" r="1.5" fill="#ffffff" opacity="0.84"/>
+      <circle cx="303" cy="212" r="0.7" fill="#ffffff" opacity="0.35"/>
+      <circle cx="430" cy="211" r="1.0" fill="#ffffff" opacity="0.53" class="tw3"/>
+      <circle cx="357" cy="283" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="392" cy="31" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="756" cy="208" r="0.7" fill="#ffffff" opacity="0.35" class="tw2"/>
+      <circle cx="736" cy="223" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="250" cy="103" r="0.9" fill="#ffffff" opacity="0.47"/>
+      <circle cx="534" cy="19" r="1.6" fill="#ffffff" opacity="0.9" class="tw"/>
+      <circle cx="92" cy="212" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="313" cy="96" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="285" cy="328" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="446" cy="225" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="131" cy="10" r="1.6" fill="#ffffff" opacity="0.9"/>
+      <circle cx="723" cy="34" r="1.2" fill="#ffffff" opacity="0.66" class="tw3"/>
+      <circle cx="673" cy="302" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="117" cy="134" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="74" cy="236" r="1.4" fill="#ffffff" opacity="0.78" class="tw2"/>
+      <circle cx="385" cy="287" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="714" cy="130" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="325" cy="241" r="1.5" fill="#ffffff" opacity="0.84" class="tw"/>
+      <circle cx="66" cy="200" r="1.5" fill="#ffffff" opacity="0.84"/>
+      <circle cx="594" cy="81" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="759" cy="75" r="1.6" fill="#ffffff" opacity="0.9"/>
+      <circle cx="338" cy="177" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="584" cy="200" r="1.5" fill="#ffffff" opacity="0.84"/>
+      <circle cx="550" cy="310" r="1.3" fill="#ffffff" opacity="0.72" class="tw3"/>
+      <circle cx="505" cy="21" r="1.5" fill="#ffffff" opacity="0.84"/>
+      <circle cx="199" cy="78" r="0.7" fill="#ffffff" opacity="0.35"/>
+      <circle cx="533" cy="126" r="1.3" fill="#ffffff" opacity="0.72" class="tw2"/>
+      <circle cx="697" cy="318" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="718" cy="130" r="0.7" fill="#ffffff" opacity="0.35"/>
+      <circle cx="660" cy="336" r="1.1" fill="#ffffff" opacity="0.59" class="tw"/>
+      <circle cx="770" cy="192" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="713" cy="23" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="597" cy="29" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="335" cy="76" r="1.1" fill="#ffffff" opacity="0.59"/>
+    </g>
+    <use href="#ostars" y="-340"/>
+  </g>
+
+  <circle cx="430" cy="170" r="34" fill="#f0c674" opacity="0.35" class="sun"/>
+  <circle cx="430" cy="170" r="22" fill="#f0c674" opacity="0.5"/>
+  <circle cx="430" cy="170" r="17" fill="#f5d78e"/>
+  <text x="430" y="169" text-anchor="middle" class="core">ai</text>
+  <text x="430" y="179" text-anchor="middle" class="core">research</text>
+  <circle cx="430" cy="170" r="62" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="2 6" opacity="0.6"/><g class="o0"><g transform="translate(492,170)"><g class="c0"><circle cx="0" cy="0" r="8.0" fill="#3776ab"/><circle cx="0" cy="0" r="8.0" fill="#ffffff" opacity="0.14"/><text x="0" y="22.0" text-anchor="middle" class="focus">machine learning</text></g></g></g><g class="o1"><g transform="translate(492,170)"><g class="c1"><circle cx="0" cy="0" r="5.5" fill="#f0883e"/><circle cx="0" cy="0" r="5.5" fill="#ffffff" opacity="0.14"/><text x="0" y="19.5" text-anchor="middle" class="focus">llms</text></g></g></g><circle cx="430" cy="170" r="105" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="2 6" opacity="0.6"/><g class="o2"><g transform="translate(535,170)"><g class="c2"><circle cx="0" cy="0" r="6.5" fill="#3fb950"/><circle cx="0" cy="0" r="6.5" fill="#ffffff" opacity="0.14"/><text x="0" y="20.5" text-anchor="middle" class="focus">nlp</text></g></g></g><g class="o3"><g transform="translate(535,170)"><g class="c3"><circle cx="0" cy="0" r="7.0" fill="#8957e5"/><circle cx="0" cy="0" r="7.0" fill="#ffffff" opacity="0.14"/><text x="0" y="21.0" text-anchor="middle" class="focus">deep learning</text></g></g></g><circle cx="430" cy="170" r="148" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="2 6" opacity="0.6"/><g class="o4"><g transform="translate(578,170)"><g class="c4"><circle cx="0" cy="0" r="6.0" fill="#58a6ff"/><circle cx="0" cy="0" r="6.0" fill="#ffffff" opacity="0.14"/><text x="0" y="20.0" text-anchor="middle" class="focus">data engineering</text></g></g></g><g class="o5"><g transform="translate(578,170)"><g class="c5"><circle cx="0" cy="0" r="5.0" fill="#e34c26"/><circle cx="0" cy="0" r="5.0" fill="#ffffff" opacity="0.14"/><text x="0" y="19.0" text-anchor="middle" class="focus">web intelligence</text></g></g></g>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="860" height="150" viewBox="0 0 860 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About Nicholas">
+  <style>
+    .tw { animation: twinkle 3.2s ease-in-out infinite; }
+    .tw2 { animation: twinkle 4.1s ease-in-out infinite; animation-delay: 1.3s; }
+    .tw3 { animation: twinkle 2.6s ease-in-out infinite; animation-delay: 0.7s; }
+    @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    .drift { animation: drift 12.4s linear infinite; }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(150px); } }
+
+    .about { font: 500 13px ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #9198a1; }
+    .dim { font: 500 11px ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #6e7681; letter-spacing: 1px; }
+  </style>
+
+  <rect width="860" height="150" fill="#0d1117"/>
+  <g class="drift">
+    <g id="astars">
+      <circle cx="425" cy="83" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="277" cy="49" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="418" cy="54" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="285" cy="26" r="1.3" fill="#ffffff" opacity="0.72" class="tw3"/>
+      <circle cx="766" cy="103" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="292" cy="65" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="625" cy="45" r="1.0" fill="#ffffff" opacity="0.53" class="tw2"/>
+      <circle cx="840" cy="52" r="1.6" fill="#ffffff" opacity="0.9"/>
+      <circle cx="531" cy="113" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="156" cy="106" r="0.9" fill="#ffffff" opacity="0.47" class="tw"/>
+      <circle cx="351" cy="21" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="317" cy="4" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="728" cy="148" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="96" cy="53" r="0.8" fill="#ffffff" opacity="0.41"/>
+      <circle cx="189" cy="93" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="31" cy="73" r="1.1" fill="#ffffff" opacity="0.59" class="tw3"/>
+      <circle cx="343" cy="22" r="1.1" fill="#ffffff" opacity="0.59"/>
+      <circle cx="91" cy="102" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="540" cy="61" r="1.6" fill="#ffffff" opacity="0.9" class="tw2"/>
+      <circle cx="318" cy="32" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="782" cy="25" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="803" cy="126" r="1.1" fill="#ffffff" opacity="0.59" class="tw"/>
+      <circle cx="387" cy="129" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="691" cy="28" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="633" cy="37" r="0.9" fill="#ffffff" opacity="0.47"/>
+      <circle cx="721" cy="85" r="1.1" fill="#ffffff" opacity="0.59"/>
+    </g>
+    <use href="#astars" y="-150"/>
+  </g>
+
+  <text x="430" y="30" text-anchor="middle" class="dim">// about</text>
+  <text x="430" y="58" text-anchor="middle" class="about">data scientist &amp; ai researcher building things end to end —</text><text x="430" y="80" text-anchor="middle" class="about">web-scale data pipelines, models in production, and the tooling in between.</text><text x="430" y="102" text-anchor="middle" class="about">python for the science, rust for the speed.</text><text x="430" y="124" text-anchor="middle" class="about">most of my work ships from private repos — the graph above is the tip of the iceberg.</text>
+</svg>
