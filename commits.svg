@@ -34,5 +34,5 @@
     <use href="#cmstars" y="-70"/>
   </g>
 
-  <text x="430" y="42" text-anchor="middle" class="commits"><tspan class="num" id="commit-count">3,400</tspan> all-time commits</text>
+  <text x="430" y="42" text-anchor="middle" class="commits"><tspan class="num" id="commit-count">3,407</tspan> all-time commits</text>
 </svg>
