@@ -52,9 +52,9 @@ jobs:
           if [ "$TOTAL" -gt 0 ]; then
             FMT=$(python3 -c "print(f'{$TOTAL:,}')")
             echo "all-time commits: $FMT"
-            sed -i -E "s|(id=\"commit-count\">)[^<]*|\1${FMT}|" stats.svg
+            sed -i -E "s|(id=\"commit-count\">)[^<]*|\1${FMT}|" commits.svg
           else
-            echo "commit count query returned 0, leaving stats.svg unchanged"
+            echo "commit count query returned 0, leaving commits.svg unchanged"
           fi
 
       - name: Commit and push
@@ -64,7 +64,7 @@ jobs:
 
           COMMIT_MSG="Update space shooter game GIF"
 
-          git add game.gif stats.svg
+          git add game.gif commits.svg
 
           LAST_MSG=$(git log -1 --pretty=%s 2>/dev/null || echo "")
 

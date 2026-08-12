@@ -1,0 +1,132 @@
+<svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fueled by coffee">
+  <style>
+    .tw { animation: twinkle 3.2s ease-in-out infinite; }
+    .tw2 { animation: twinkle 4.1s ease-in-out infinite; animation-delay: 1.3s; }
+    .tw3 { animation: twinkle 2.6s ease-in-out infinite; animation-delay: 0.7s; }
+    @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    .drift { animation: drift 9.9s linear infinite; }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(120px); } }
+
+    .coffee { font: 500 11px ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #6e7681; letter-spacing: 1px; }
+    .steam { animation: steam 3s ease-in-out infinite; opacity: 0; }
+    .s1 { animation-delay: 1s; }
+    .s2 { animation-delay: 2s; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 0.7; } 100% { opacity: 0; transform: translateY(-14px); } }
+  </style>
+
+  <rect width="860" height="120" fill="#0d1117"/>
+  <g class="drift">
+    <g id="cfstars">
+      <circle cx="557" cy="83" r="1.6" fill="#ffffff" opacity="0.9"/>
+      <circle cx="171" cy="10" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="288" cy="45" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="160" cy="108" r="1.1" fill="#ffffff" opacity="0.59" class="tw3"/>
+      <circle cx="65" cy="108" r="1.2" fill="#ffffff" opacity="0.66"/>
+      <circle cx="71" cy="99" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="635" cy="78" r="1.6" fill="#ffffff" opacity="0.9" class="tw2"/>
+      <circle cx="14" cy="115" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="220" cy="73" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="558" cy="84" r="1.2" fill="#ffffff" opacity="0.66" class="tw"/>
+      <circle cx="88" cy="47" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="642" cy="110" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="456" cy="22" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="230" cy="118" r="0.9" fill="#ffffff" opacity="0.47"/>
+      <circle cx="829" cy="4" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="299" cy="69" r="1.1" fill="#ffffff" opacity="0.59" class="tw3"/>
+      <circle cx="266" cy="53" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="305" cy="44" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="155" cy="43" r="1.2" fill="#ffffff" opacity="0.66" class="tw2"/>
+      <circle cx="445" cy="22" r="1.4" fill="#ffffff" opacity="0.78"/>
+      <circle cx="421" cy="13" r="1.0" fill="#ffffff" opacity="0.53"/>
+      <circle cx="53" cy="42" r="0.8" fill="#ffffff" opacity="0.41" class="tw"/>
+      <circle cx="221" cy="66" r="1.3" fill="#ffffff" opacity="0.72"/>
+      <circle cx="259" cy="56" r="1.2" fill="#ffffff" opacity="0.66"/>
+    </g>
+    <use href="#cfstars" y="-120"/>
+  </g>
+
+  <g shape-rendering="crispEdges">
+    <rect x="406" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="442" y="34" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="406" y="38" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="414" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="418" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="422" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="426" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="430" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="434" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="438" y="38" width="4" height="4" fill="#6f4e37"/>
+    <rect x="442" y="38" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="406" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="442" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="446" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="450" y="42" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="406" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="442" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="450" y="46" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="406" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="442" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="450" y="50" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="406" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="442" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="446" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="450" y="54" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="410" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="438" y="58" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="418" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="422" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="426" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="430" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="434" y="62" width="4" height="4" fill="#e2e6ea"/>
+    <rect x="414" y="26" width="3" height="3" fill="#9198a1" class="steam s0"/><rect x="424" y="26" width="3" height="3" fill="#9198a1" class="steam s1"/><rect x="434" y="26" width="3" height="3" fill="#9198a1" class="steam s2"/>
+  </g>
+  <text x="430" y="98" text-anchor="middle" class="coffee">more coffee</text>
+</svg>
