@@ -76,19 +76,22 @@
   <circle cx="152" cy="62" r="2" fill="#c9d1d9" opacity="0.8"/>
   <path d="M152 62 L 186 44 M152 62 L 190 54" stroke="#c9d1d9" stroke-opacity="0.25"/>
 
-  <path class="route" d="M 50 218 C 110 180, 160 128, 215 128 C 275 128, 345 198, 430 182 C 508 167, 565 126, 640 126 C 700 126, 755 140, 800 140" fill="none" stroke="#8b949e" stroke-opacity="0.5"/>
+  <path class="route" d="M 50 218 C 100 184, 140 126, 190 126 C 250 126, 305 188, 360 188 C 420 188, 475 122, 530 122 C 582 122, 622 178, 675 178 C 725 178, 765 140, 800 140" fill="none" stroke="#8b949e" stroke-opacity="0.5"/>
 
   <circle cx="50" cy="218" r="4" fill="#f0c674"/>
   <text x="30" y="248" class="lbl">2020 :: first commit</text>
 
-  <circle cx="215" cy="128" r="4" fill="#3776ab"/>
-  <text x="215" y="106" text-anchor="middle" class="lbl">2024 :: first repo</text>
+  <circle cx="190" cy="126" r="4" fill="#3776ab"/>
+  <text x="190" y="104" text-anchor="middle" class="lbl">2024 :: first repo</text>
 
-  <circle cx="430" cy="182" r="4" fill="#3fb950"/>
-  <text x="430" y="214" text-anchor="middle" class="lbl">2025 :: first models</text>
+  <circle cx="360" cy="188" r="4" fill="#3fb950"/>
+  <text x="360" y="220" text-anchor="middle" class="lbl">2025 :: first models</text>
 
-  <circle cx="640" cy="126" r="4" fill="#dea584"/>
-  <text x="640" y="104" text-anchor="middle" class="lbl">2026 :: capstone</text>
+  <circle cx="530" cy="122" r="4" fill="#dea584"/>
+  <text x="530" y="100" text-anchor="middle" class="lbl">2026 :: capstone</text>
+
+  <circle cx="675" cy="178" r="4" fill="#f0883e"/>
+  <text x="675" y="210" text-anchor="middle" class="lbl">2026 :: intern</text>
 
   <circle cx="800" cy="140" r="10" fill="#f0c674" opacity="0" class="here"/>
   <g class="exh"><path d="M786 138 h-16 M786 142 h-16" stroke="#f0c674" stroke-opacity="0.5"/></g>
