@@ -334,25 +334,7 @@
     <rect x="426" y="266" width="4" height="4" fill="#e2e6ea"/>
     <rect x="430" y="266" width="4" height="4" fill="#e2e6ea"/>
     <rect x="434" y="266" width="4" height="4" fill="#e2e6ea"/>
-    <rect x="470" y="246" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="474" y="246" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="470" y="250" width="4" height="4" fill="#4a3423"/>
-    <rect x="474" y="250" width="4" height="4" fill="#4a3423"/>
-    <rect x="470" y="254" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="474" y="254" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="486" y="254" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="490" y="254" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="486" y="258" width="4" height="4" fill="#4a3423"/>
-    <rect x="490" y="258" width="4" height="4" fill="#4a3423"/>
-    <rect x="486" y="262" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="490" y="262" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="480" y="234" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="484" y="234" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="480" y="238" width="4" height="4" fill="#4a3423"/>
-    <rect x="484" y="238" width="4" height="4" fill="#4a3423"/>
-    <rect x="480" y="242" width="4" height="4" fill="#8a5a3b"/>
-    <rect x="484" y="242" width="4" height="4" fill="#8a5a3b"/>
     <rect x="414" y="230" width="3" height="3" fill="#9198a1" class="steam s0"/><rect x="424" y="230" width="3" height="3" fill="#9198a1" class="steam s1"/><rect x="434" y="230" width="3" height="3" fill="#9198a1" class="steam s2"/>
   </g>
-  <text x="430" y="293" text-anchor="middle" class="coffee">fueled by coffee</text>
+  <text x="430" y="293" text-anchor="middle" class="coffee">more coffee</text>
 </svg>
