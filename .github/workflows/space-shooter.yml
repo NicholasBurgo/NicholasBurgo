@@ -1,4 +1,4 @@
-name: Update Space Shooter Game
+name: Nightly profile refresh
 
 on:
   schedule:
@@ -57,14 +57,28 @@ jobs:
             echo "commit count query returned 0, leaving commits.svg unchanged"
           fi
 
+      # Deep-space scan = 7 most recently pushed private repos. GITHUB_TOKEN
+      # cannot list private repositories, so this needs SCAN_TOKEN: a
+      # fine-grained PAT (all repos, Metadata: read) saved as a repo secret.
+      # Skips quietly if the secret is absent, leaving orbit.svg unchanged.
+      - name: Regenerate deep-space scan
+        env:
+          GH_TOKEN: ${{ secrets.SCAN_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "SCAN_TOKEN not set, leaving orbit.svg unchanged"
+          else
+            python3 scripts/generate_orbit.py
+          fi
+
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          COMMIT_MSG="Update space shooter game GIF"
+          COMMIT_MSG="Nightly profile refresh"
 
-          git add game.gif commits.svg
+          git add game.gif commits.svg orbit.svg
 
           LAST_MSG=$(git log -1 --pretty=%s 2>/dev/null || echo "")
 
