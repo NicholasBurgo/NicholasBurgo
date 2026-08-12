@@ -53,7 +53,7 @@
     <use href="#sstars" y="-140"/>
   </g>
 
-  <text x="430" y="40" text-anchor="middle" class="commits"><tspan class="num" id="commit-count">3,397</tspan> all-time commits</text>
+  <text x="430" y="40" text-anchor="middle" class="commits"><tspan class="num" id="commit-count">3,400</tspan> all-time commits</text>
 
   <g shape-rendering="crispEdges">
     <rect x="406" y="62" width="4" height="4" fill="#e2e6ea"/>
