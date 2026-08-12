@@ -38,20 +38,37 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh-space-shooter NicholasBurgo --output game.gif --strategy random --fps 40
 
+      # All-time commits = sum of yearly commit contributions (incl. private)
+      # since account creation (2020). Skips the update if the API returns 0.
+      - name: Update commit counter in header
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TOTAL=0
+          for y in $(seq 2020 $(date +%Y)); do
+            C=$(gh api graphql -f query="query { user(login: \"NicholasBurgo\") { contributionsCollection(from: \"${y}-01-01T00:00:00Z\", to: \"${y}-12-31T23:59:59Z\") { totalCommitContributions restrictedContributionsCount } } }" -q '.data.user.contributionsCollection | .totalCommitContributions + .restrictedContributionsCount')
+            TOTAL=$((TOTAL + C))
+          done
+          if [ "$TOTAL" -gt 0 ]; then
+            FMT=$(python3 -c "print(f'{$TOTAL:,}')")
+            echo "all-time commits: $FMT"
+            sed -i -E "s|(id=\"commit-count\">)[^<]*|\1${FMT}|" header.svg
+          else
+            echo "commit count query returned 0, leaving header.svg unchanged"
+          fi
+
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          OUTPUT_PATH="game.gif"
           COMMIT_MSG="Update space shooter game GIF"
 
-          git add "$OUTPUT_PATH"
+          git add game.gif header.svg
 
           LAST_MSG=$(git log -1 --pretty=%s 2>/dev/null || echo "")
-          LAST_FILES=$(git log -1 --name-only --pretty=format: 2>/dev/null | grep -v '^$' || echo "")
 
-          if [ "$LAST_MSG" = "$COMMIT_MSG" ] && [ "$LAST_FILES" = "$OUTPUT_PATH" ]; then
+          if [ "$LAST_MSG" = "$COMMIT_MSG" ]; then
             echo "Amending previous GIF commit"
             git commit --amend --no-edit
             git push --force-with-lease
